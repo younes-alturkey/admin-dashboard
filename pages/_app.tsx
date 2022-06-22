@@ -17,9 +17,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                     content="General purpose responsive web and mobile dashboard"
                 />
 
-                <meta property="og:url" content="bhr.sa" />
+                <meta property="og:url" content="ya-admin-dashboard.vercel.app" />
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Bhr Dashboard" />
+                <meta property="og:title" content="Admin Dashboard" />
                 <meta
                     property="og:description"
                     content="General purpose responsive web and mobile dashboard"
@@ -27,9 +27,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <meta property="og:image" content="/static/main.png" />
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta property="twitter:domain" content="bhr.sa" />
-                <meta property="twitter:url" content="https://bhr.sa" />
-                <meta name="twitter:title" content="Bhr Dashboard" />
+                <meta property="twitter:domain" content="ya-admin-dashboard.vercel.app" />
+                <meta property="twitter:url" content="https://ya-admin-dashboard.vercel.app/" />
+                <meta name="twitter:title" content="Admin Dashboard" />
                 <meta
                     name="twitter:description"
                     content="General purpose responsive web and mobile dashboard"
