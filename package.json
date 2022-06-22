@@ -1,0 +1,40 @@
+{
+    "name": "admin-dashboard",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Younes Alturkey <hi@younes.ninja>",
+    "homepage": "https://ya-admin-dashboard.vercel.app",
+    "description": "General purpose responsive web and mobile dashboard",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "dist": "npm run build && next export",
+        "docker": "npm run dist && docker build . -t admin-dashboard -f Dockerfile && docker save -o ./admin-dashboard.tar admin-dashboard",
+        "docker:run": "docker run -it -d -p 8080:80 admin-dashboard"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.8.1",
+        "next": "12.1.6",
+        "nprogress": "^0.2.0",
+        "react": "18.1.0",
+        "react-dom": "18.1.0",
+        "react-icons": "^4.3.1",
+        "react-redux": "^8.0.1",
+        "react-select": "^5.3.2",
+        "react-toastify": "^9.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.34",
+        "@types/nprogress": "^0.2.0",
+        "@types/react": "18.0.9",
+        "@types/react-dom": "18.0.4",
+        "@types/react-toastify": "^4.1.0",
+        "autoprefixer": "^10.4.7",
+        "eslint": "8.15.0",
+        "eslint-config-next": "12.1.6",
+        "postcss": "^8.4.13",
+        "tailwindcss": "^3.0.24",
+        "typescript": "4.6.4"
+    }
+}
