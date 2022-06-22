@@ -1,11 +1,11 @@
-# Bhr Dashboard Template
+# Adminr Dashboard Template
 
 ```bash
-git clone https://github.com/bhrsols/bhr-dashboard.git
+git clone https://github.com/younes-alturkey/admin-dashboard.git
 ```
 
 ```bash
-cd bhr-dashboard
+cd admin-dashboard
 ```
 
 ```bash
@@ -34,4 +34,4 @@ Locate /out — generated deployable static web app.
 npm run docker
 ```
 
-Locate bhr-dashboard.tar — generated Nginx docker image.
+Locate admin-dashboard.tar — generated Nginx docker image.
